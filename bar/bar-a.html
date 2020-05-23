@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>5.6过滤器 | Nature</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="记录自己的学习笔记">
+    <link rel="preload" href="/assets/css/0.styles.6b7e16bd.css" as="style"><link rel="preload" href="/assets/js/app.e110133f.js" as="script"><link rel="preload" href="/assets/js/2.2234e737.js" as="script"><link rel="preload" href="/assets/js/7.699854d4.js" as="script"><link rel="prefetch" href="/assets/js/10.c60d2a20.js"><link rel="prefetch" href="/assets/js/11.9cc5b234.js"><link rel="prefetch" href="/assets/js/12.95394020.js"><link rel="prefetch" href="/assets/js/3.f235fbff.js"><link rel="prefetch" href="/assets/js/4.4d45d147.js"><link rel="prefetch" href="/assets/js/5.4b428f20.js"><link rel="prefetch" href="/assets/js/6.7e69207a.js"><link rel="prefetch" href="/assets/js/8.8bfc890a.js"><link rel="prefetch" href="/assets/js/9.28afe716.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6b7e16bd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.jpg" alt="Nature" class="logo"> <span class="site-name can-hide">Nature</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">下拉列表</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="test" class="dropdown-title"><span class="title">test</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/foo/" class="nav-link">
+  foo
+</a></li><li class="dropdown-item"><!----> <a href="/bar/" class="nav-link router-link-active">
+  bar
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com//" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">下拉列表</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/language/chinese/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="test" class="dropdown-title"><span class="title">test</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/foo/" class="nav-link">
+  foo
+</a></li><li class="dropdown-item"><!----> <a href="/bar/" class="nav-link router-link-active">
+  bar
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com//" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/bar/" aria-current="page" class="sidebar-link">我是bar的redeme</a></li><li><a href="/bar/bar-a.html" aria-current="page" class="active sidebar-link">5.6过滤器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bar/bar-a.html#_6-综合案例：图书管理系统" class="sidebar-link">6.综合案例：图书管理系统</a></li></ul></li><li><a href="/bar/bar-b.html" class="sidebar-link">我是憨憨</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="_5-6过滤器"><a href="#_5-6过滤器" class="header-anchor">#</a> 5.6过滤器</h3> <h5 id="_1-过滤器的作用是什么？"><a href="#_1-过滤器的作用是什么？" class="header-anchor">#</a> 1.过滤器的作用是什么？</h5> <p>格式化数据，比如将字符串格式化为首字母大写，将日期格式化指定的格式等</p> <h5 id="_2-自定义过滤器"><a href="#_2-自定义过滤器" class="header-anchor">#</a> 2.自定义过滤器</h5> <p>​	<code>Vue.filter('过滤器名称',function(value){</code></p> <p>​	<code>//过滤器业务逻辑</code></p> <p><code>})</code></p> <h5 id="_3-过滤器的使用"><a href="#_3-过滤器的使用" class="header-anchor">#</a> 3.过滤器的使用</h5> <p><code>&lt;div&gt;&lt;/div&gt;</code></p> <p>可以级联操作：<code>&lt;div&gt;&lt;/div&gt;</code></p> <p>属性绑定操作：<code>&lt;div v-bing:&quot;id | formatId&quot;&gt;&lt;/div&gt;</code></p> <h5 id="_4-局部过滤器"><a href="#_4-局部过滤器" class="header-anchor">#</a> 4.局部过滤器</h5> <p><code>filters:{ 				upper:function(val){ 					return val.charAt(0).toUpperCase() + val.slice(1) 				} 			}</code></p> <h5 id="_5-带参数的过滤器"><a href="#_5-带参数的过滤器" class="header-anchor">#</a> 5.带参数的过滤器</h5> <p><code>Vue.filter('format', function(value,arg1){</code></p> <p>​	<code>//value就是过滤器传过来的参数</code></p> <p><code>})</code></p> <h5 id="_6-过滤器的使用"><a href="#_6-过滤器的使用" class="header-anchor">#</a> 6.过滤器的使用</h5> <p><code>&lt;div&gt;&lt;/div&gt;</code></p> <h5 id="案例：显示日期"><a href="#案例：显示日期" class="header-anchor">#</a> 案例：显示日期</h5> <div class="language-html extra-class"><pre class="language-html"><code>`	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>{{date | format('yyyy-MM-dd')}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>js/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+		Vue.filter('format',function(value,arg){
+			if(arg == 'yyyy-MM-dd'){
+				var ret ='';
+				ret +=value.getFullYear()+'-'+(value.getMonth()+1)+'-'+value.getDate();
+				return ret
+			}
+			return value
+		})
+		var vm = new Vue({
+			el:'#app',
+			data:{
+				date: new Date()
+			}
+		});`
+</code></pre></div><h2 id="_6-综合案例：图书管理系统"><a href="#_6-综合案例：图书管理系统" class="header-anchor">#</a> 6.综合案例：图书管理系统</h2> <h5 id="补充知识（数组相关api）"><a href="#补充知识（数组相关api）" class="header-anchor">#</a> 补充知识（数组相关API）</h5> <img src="C:\Users\贺莫人\AppData\Roaming\Typora\typora-user-images\image-20200416105043412.png" alt="image-20200416105043412"> <h5 id="_1-变异方法"><a href="#_1-变异方法" class="header-anchor">#</a> 1.变异方法</h5> <p>Vue包含一组观察数组的变异方法，所以它们也将会触发视图更新。这些方法如下：</p> <table><thead><tr><th style="text-align:left;">push()方法可向数组的末尾添加一个或多个元素，并返回新的长度。</th></tr></thead> <tbody><tr><td style="text-align:left;">pop() 方法用于删除并返回数组的最后一个元素。</td></tr> <tr><td style="text-align:left;">shift() 方法用于把数组的第一个元素从其中删除，并返回第一个元素的值。</td></tr> <tr><td style="text-align:left;">unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度。</td></tr> <tr><td style="text-align:left;">splice() 方法向/从数组中添加/删除项目，然后返回被删除的项目。</td></tr> <tr><td style="text-align:left;">sort() 方法用于对数组的元素进行排序。</td></tr> <tr><td style="text-align:left;">reverse() 方法用于颠倒数组中元素的顺序。</td></tr></tbody></table> <h5 id="_2-替换数组"><a href="#_2-替换数组" class="header-anchor">#</a> 2.替换数组</h5> <table><thead><tr><th>filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素。</th></tr></thead> <tbody><tr><td>concat() 方法用于连接两个或多个字符串。</td></tr> <tr><td>slice()方法可提取字符串的某个部分，并以新的字符串返回被提取的部分</td></tr></tbody></table> <h5 id="_3-修改响应式数据"><a href="#_3-修改响应式数据" class="header-anchor">#</a> 3.修改响应式数据</h5> <ul><li><p>Vue.set(vm.items,indexOfltem,newValue)</p></li> <li><p>vm.$set(vm.items,indexOflem,newValue)</p> <ul><li><p>参数一表示要处理的数据名称</p></li> <li><p>参数二表示要处理的数组索引</p></li> <li><p>参数三表示要处理的数组的值</p></li></ul></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/bar/" class="prev router-link-active">
+        我是bar的redeme
+      </a></span> <span class="next"><a href="/bar/bar-b.html">
+        我是憨憨
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e110133f.js" defer></script><script src="/assets/js/2.2234e737.js" defer></script><script src="/assets/js/7.699854d4.js" defer></script>
+  </body>
+</html>
